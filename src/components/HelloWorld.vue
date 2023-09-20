@@ -31,7 +31,7 @@ const value1 = ref(true);
   </div>
 
   <div class="my-2 text-center flex flex-wrap justify-center items-center">
-    <el-button @click="count++">count is: {{ count }}</el-button>
+    <el-button class="ui-button:text-red-500 ui-button>span:items-start" @click="count++">count is: {{ count }}</el-button>
     <el-button type="primary" @click="count++">count is: {{ count }}</el-button>
     <el-button type="success" @click="count++">count is: {{ count }}</el-button>
     <el-button type="warning" @click="count++">count is: {{ count }}</el-button>

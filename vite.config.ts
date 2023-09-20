@@ -47,19 +47,19 @@ export default defineConfig({
 
     // https://github.com/antfu/unocss
     // see unocss.config.ts for config
-    Unocss({
-      presets: [
-        presetUno(),
-        presetAttributify(),
-        presetIcons({
-          scale: 1.2,
-          warn: true,
-        }),
-      ],
-      transformers: [
-        transformerDirectives(),
-        transformerVariantGroup(),
-      ]
-    }),
+    // Unocss({
+    //   presets: [
+    //     presetUno(),
+    //     presetAttributify(),
+    //     presetIcons({
+    //       scale: 1.2,
+    //       warn: true,
+    //     }),
+    //   ],
+    //   transformers: [
+    //     transformerDirectives(),
+    //     transformerVariantGroup(),
+    //   ]
+    // }),
   ],
 })
